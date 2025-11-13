@@ -41,58 +41,6 @@ This script automatically scans available ports and tests common baud rates to i
 pip install pyserial
 ### 2️⃣ Run the script:
 python identify_serial.py
-###  3️⃣Example output:
-
-Detected Ports: ['COM3']
-
-Detected Baud Rates (candidates): [115200]
-
-Sample Data:
-
-  [0] F6 8E 87 32 FA 26 8E BE 512
-
-Python example:
-
-from identify_serial import identify_port_and_baudrate
-
-ports, baud_rates, data = identify_port_and_baudrate()
-
-print("Ports:", ports)
-
-print("Baud rates (candidates):", baud_rates)
-
-print("Sample data:", data)
-
-Arduino Example:
-void setup() {
-
-  Serial.begin(9600); // You can change to any other baud rate to test
-  
-}
-
-void loop() {
-
-  Serial.print("F6 ");
-  
-  Serial.print("8E ");
-  
-  Serial.print("87 ");
-  
-  Serial.print("32 ");
-  
-  Serial.print("FA ");
-  
-  Serial.print("26 ");
-  
-  Serial.print("8E ");
-  
-  Serial.print("BE ");
-  
-  Serial.println(analogRead(A0));
-  
-  delay(100);
-  
-}
 
 ## 💡Notes:
 
