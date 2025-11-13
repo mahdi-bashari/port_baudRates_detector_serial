@@ -1,6 +1,6 @@
-# 🔌 Serial Port & Bund Rate Identifier
+# 🔌 Serial Port & baud Rate Identifier
 
-A simple and lightweight Python tool to **automatically detect the correct serial port and bund rate** for devices like **Arduino**, **ESP32**, **STM32**, and other serial-based boards.
+A simple and lightweight Python tool to **automatically detect the correct serial port and baud rate** for devices like **Arduino**, **ESP32**, **STM32**, and other serial-based boards.
 
 ---
 
@@ -8,7 +8,7 @@ A simple and lightweight Python tool to **automatically detect the correct seria
 
 When working with serial devices (like Arduino), it's often unclear:
 - which **COM port** the board is connected to, and  
-- which **bund rate** is being used for communication.  
+- which **baud rate** is being used for communication.  
 
 This script automatically scans available ports and tests common baud rates to identify the correct one — so you don’t have to guess or manually change settings.
 
