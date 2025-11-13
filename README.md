@@ -73,7 +73,7 @@ void loop() {
   delay(100);
 }
 
-##💡Notes:
+## 💡Notes:
 
 On macOS/Linux, the serial port descriptions differ — script attempts common identifiers (USB Serial, ttyUSB, ttyACM). Adjust as needed.
 
@@ -81,11 +81,11 @@ Default length checked for received data is 50 characters; change length paramet
 
 If your device transmits only after a command, the script might not capture data — ensure the device is sending continuously while scanning 
 
-##👨‍💻 Author:
+## 👨‍💻 Author:
 
 Mahdi Bashari
 
-##📜 License:
+## 📜 License:
 
 This project is released under the MIT License — free to use, modify, and distribute.
 
